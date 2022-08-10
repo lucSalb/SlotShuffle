@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Vulcan_Shuffle</id>
+    <version>1.0.0</version>
+    <authors>Vulcan_Shuffle</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Rg.Plugins.Popup" version="2.0.0.13" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Essentials" version="1.7.0" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="5.0.0.2012" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\bin\Release\netstandard2.0\Vulcan_Shuffle.dll" target="lib\netstandard2.0\Vulcan_Shuffle.dll" />
+  </files>
+</package>

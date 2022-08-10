@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"          
+             x:Class="Slots_Shuffle.App">
+    
+    <Application.Resources>
+        <Style x:Key="contentPageStyle" TargetType="{x:Type ContentPage}">
+            <Setter Property="BackgroundImageSource" Value="lines.png"/>
+        </Style>
+
+        <Style x:Key="contentPageStyleGameOver" TargetType="{x:Type ContentPage}">
+            <Setter Property="BackgroundImageSource" Value="lines_gameover.png"/>
+        </Style>
+
+        <Style x:Key="bigButtons" TargetType="{x:Type Button}">
+            <Setter Property="TextColor" Value="White"/>
+
+            <Setter Property="Background">
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#EB3432"
+                          Offset="0.1"/>
+                    <GradientStop Color="#661515"
+                          Offset="1.0"/>
+                </LinearGradientBrush>
+            </Setter>
+
+            <Setter Property="BorderColor" Value="Transparent"/>
+
+            <Setter Property="CornerRadius" Value="5"/>
+
+            <Setter Property="WidthRequest" Value="150"/>
+
+            <Setter Property="HeightRequest" Value="40"/>
+        </Style>
+
+        <Style x:Key="bigButtonsBlue" TargetType="{x:Type Button}">
+            <Setter Property="TextColor" Value="White"/>
+
+            <Setter Property="Background">
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#336DB8"
+                          Offset="0.1"/>
+                    <GradientStop Color="#15417A"
+                          Offset="1.0"/>
+                </LinearGradientBrush>
+            </Setter>
+
+            <Setter Property="BorderColor" Value="Transparent"/>
+
+            <Setter Property="CornerRadius" Value="5"/>
+
+            <Setter Property="WidthRequest" Value="150"/>
+
+            <Setter Property="HeightRequest" Value="40"/>
+        </Style>
+
+
+        <Style x:Key="squareButtons" TargetType="{x:Type ImageButton}">
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Background">
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#EB3432"
+                          Offset="0.1"/>
+                    <GradientStop Color="#661515"
+                          Offset="1.0"/>
+                </LinearGradientBrush>
+            </Setter>
+
+            <Setter Property="BorderColor" Value="Transparent"/>
+
+            <Setter Property="CornerRadius" Value="5"/>
+
+            <Setter Property="WidthRequest" Value="40"/>
+
+            <Setter Property="HeightRequest" Value="40"/>
+
+            <Setter Property="BackgroundColor" Value="Red"/>
+
+            <Setter Property="Padding" Value="5"/>
+
+            <Setter Property="Aspect" Value="AspectFit"/>
+
+        </Style>
+ 
+        <Style x:Key="frameInfo" TargetType="{x:Type Frame}">
+            <Setter Property="WidthRequest" Value="120"/>
+            <Setter Property="HeightRequest" Value="34"/>
+            <Setter Property="CornerRadius" Value="40"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="IsClippedToBounds" Value="True"/>
+            <Setter Property="Background">
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#AD7116"
+                          Offset="0.1"/>
+                    <GradientStop Color="#DBB270"
+                          Offset="1.0"/>
+                </LinearGradientBrush>
+            </Setter>
+        </Style>
+
+        <Style x:Key="frameInfoINNER" TargetType="{x:Type Frame}">
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="BackgroundColor" Value="black"/>
+            <Setter Property="HasShadow" Value="False"/>
+            <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+
+            <Setter Property="CornerRadius" Value="40"/>
+            <Setter Property="IsClippedToBounds" Value="True"/>
+        </Style>
+        
+    </Application.Resources>
+</Application>

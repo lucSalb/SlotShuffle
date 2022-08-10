@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="White"
+             Style="{StaticResource contentPageStyle}"
+             x:Class="Slots_Shuffle.Views.Play1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid x:Name="gameScreen" Grid.Row="0" Grid.Column="0" RowSpacing="0" ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+        </Grid>
+
+
+        <ImageButton x:Name="BTPause" Source="pause.png" Style="{StaticResource squareButtons}" VerticalOptions="Start" HorizontalOptions="Center" Grid.Row="0" Grid.Column="1" Margin="0,25,0,0" Padding="10">
+            <ImageButton.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#336DB8"
+                          Offset="0.1"/>
+                    <GradientStop Color="#15417A"
+                          Offset="1.0"/>
+                </LinearGradientBrush>
+            </ImageButton.Background>
+        </ImageButton>
+
+        <Label x:Name="LBreplayChances" Text="??" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,55" Grid.Row="0" Grid.Column="1" TextColor="#F1C042"/>
+
+        <ImageButton x:Name="BTReplay" Source="replay.png" Margin="0,0,0,0" Style="{StaticResource squareButtons}" VerticalOptions="End" HorizontalOptions="Center" Grid.Row="0" Grid.Column="1" Padding="8" />
+
+        <Frame Style="{StaticResource frameInfo}" HorizontalOptions="Center" VerticalOptions="Start" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <Grid HeightRequest="50" IsClippedToBounds="True">
+                <Frame  Style="{StaticResource frameInfoINNER}">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Margin="0">
+                        <Label Text="Score:" TextColor="#F1C042" Margin="0"/>
+                        <Label x:Name="LBScore" Text="000" TextColor="#F1C042" Margin="0"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </Frame>
+    </Grid>
+</ContentPage>

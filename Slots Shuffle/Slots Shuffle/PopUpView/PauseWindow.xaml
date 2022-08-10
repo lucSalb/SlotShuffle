@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Slots_Shuffle.PopUpView.PauseWindow"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Frame HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="220" HeightRequest="240" BackgroundColor="#020A6A" CornerRadius="7">
+            <StackLayout>
+                <Label Text="Pause" FontSize="24" TextColor="White" HorizontalOptions="Center" FontAttributes="Bold"/>
+                <Label x:Name="LBScore" Text="Score:" TextColor="#F1C042" Margin="0,10,0,0" HorizontalOptions="Center" FontSize="20"/>
+                <Button x:Name="BTResume" HorizontalOptions="Center" VerticalOptions="Center" Text="Resume" Margin="0,30,0,0" Style="{StaticResource bigButtons}" Grid.Row="1"/>
+                <Button x:Name="BTMenu" HorizontalOptions="Center" VerticalOptions="Center" Text="Menu" Margin="0,10,0,0" Style="{StaticResource bigButtonsBlue}" Grid.Row="1"/>
+
+            </StackLayout>
+        </Frame>
+    </Grid>
+</pages:PopupPage>

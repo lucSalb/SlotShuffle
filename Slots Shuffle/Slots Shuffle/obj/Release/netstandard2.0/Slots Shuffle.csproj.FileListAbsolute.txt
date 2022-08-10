@@ -1,0 +1,16 @@
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\bin\Release\netstandard2.0\Slots_Shuffle.deps.json
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\bin\Release\netstandard2.0\Slots_Shuffle.dll
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\bin\Release\netstandard2.0\ref\Slots_Shuffle.dll
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\bin\Release\netstandard2.0\Slots_Shuffle.pdb
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\PopUpView\PauseWindow.xaml.g.cs
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\Views\GameOver.xaml.g.cs
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\Views\Play1.xaml.g.cs
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\Slots Shuffle.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\Slots Shuffle.AssemblyInfo.cs
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\Slots Shuffle.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\Slots_Shuffle.dll
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\ref\Slots_Shuffle.dll
+C:\Users\lucas\source\repos\Slots Shuffle\Slots Shuffle\Slots Shuffle\obj\Release\netstandard2.0\Slots_Shuffle.pdb

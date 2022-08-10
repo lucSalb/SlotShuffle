@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="White"
+             Style="{StaticResource contentPageStyle}"
+             x:Class="Slots_Shuffle.MainPage">
+
+    <Grid  HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="200" RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Frame Style="{StaticResource frameInfo}" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0">
+            <Grid HeightRequest="50" IsClippedToBounds="True">
+                <Frame  Style="{StaticResource frameInfoINNER}">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Margin="0">
+                            <Label Text="Score:" TextColor="#F1C042" Margin="0"/>
+                            <Label x:Name="LBScore" Text="000" TextColor="#F1C042" Margin="0"/>
+                        </StackLayout>
+                </Frame>
+            </Grid>
+        </Frame>
+        
+        <Button x:Name="BtnPlay" HorizontalOptions="Center" VerticalOptions="Center" Text="Play" Margin="0,30,0,0" Style="{StaticResource bigButtons}" Grid.Row="1"/>
+
+        <Grid HorizontalOptions="Center" Margin="0,25,0,0" Padding="0" ColumnSpacing="35" HeightRequest="40" Grid.Row="2" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ImageButton x:Name="BTInfo" Source="i.png" Margin="0,0,0,0" Style="{StaticResource squareButtons}" Grid.Column="0" VerticalOptions="Start"/>
+            <ImageButton x:Name="BTMute" Source="music.png" Margin="0,0,0,0" Style="{StaticResource squareButtons}" Grid.Column="1" VerticalOptions="Start"/>
+        </Grid>
+    </Grid>
+
+</ContentPage>

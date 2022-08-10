@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Slots_Shuffle.Views.GameOver" 
+             Style="{StaticResource contentPageStyleGameOver}">
+
+    <StackLayout  HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="200">
+        <Label Text="Game Over" FontSize="40" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White"/>
+
+        <Frame Style="{StaticResource frameInfo}" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1">
+            <Grid HeightRequest="50" IsClippedToBounds="True">
+                <Frame  Style="{StaticResource frameInfoINNER}">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Margin="0">
+                        <Label Text="Score:" TextColor="#F1C042" Margin="0"/>
+                        <Label x:Name="LBScore" Text="000" TextColor="#F1C042" Margin="0"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </Frame>
+
+        <Label x:Name="LBBestScore" Text="Best score" FontSize="20" HorizontalOptions="Center" Grid.Row="2" TextColor="#F1C042"/>
+
+        <Button x:Name="BTAgain" HorizontalOptions="Center" VerticalOptions="Center" Text="Again" Margin="0,20,0,0" Style="{StaticResource bigButtons}" Grid.Row="3"/>
+
+        <Button x:Name="BTMenu" HorizontalOptions="Center" VerticalOptions="Center" Text="Menu" Margin="0,5,0,0" Style="{StaticResource bigButtons}" Grid.Row="4"/>
+
+
+    </StackLayout>
+</ContentPage>
